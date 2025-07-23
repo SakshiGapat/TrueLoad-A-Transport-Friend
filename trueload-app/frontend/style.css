@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: #1e1e2f;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  background: #4a00e0;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+
+}
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  padding: 5px;
+}
+
+.image-row img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hero .btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: #4a00e0;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.form-section, .about-section{
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #4a00e0;
+  color: white;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+button:hover{
+    background-color: orange;
+    color: black;
+}
+footer {
+  background: #1e1e2f;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 30px;
+}
+input[type="text"]{
+            text-transform: capitalize;
+            color: black;
+            border: 1px solid black;
+            width: 220px;
+            padding: 5px;
+            border-radius: 8px;
+             margin-top: 5px;
+             margin-bottom: 5px;
+        }
+        input[type="number"]{
+            text-transform: capitalize;
+            color: black;
+            border: 1px solid black;
+            width: 220px;
+            padding: 5px;
+            border-radius: 8px;
+             margin-top: 5px;
+             margin-bottom: 5px;
+        }
+        input[type="email"]{
+            
+            color: black;
+            border: 1px solid black;
+            width: 220px;
+            padding: 5px;
+            border-radius: 8px;
+             margin-top: 5px;
+             margin-bottom: 5px;
+        }
+        
+        input[type="date"]{
+            margin-top: 5px;
+             margin-bottom: 5px;
+        }
+        input[type="file"]{
+            margin-top: 5px;
+             margin-bottom: 5px;
+        }
+        
+        #cities{
+            margin-top: 5px;
+             margin-bottom: 5px;
+        }
+.contact-section h2{
+    padding-left: 400px;
+}
+.contact-section table{
+    border: 1px solid gray;
+    width: 500px;
+    height: 500px;
+    padding: 10px auto;
+    margin: 30px auto;
+}
+#services {
+  background: #f4f7fc;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#services h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  padding-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+}
+
+.service-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #eee;
+}
+
+.service-card h3 {
+  font-size: 1.3rem;
+  margin: 16px 0 8px;
+  color: #1f2937;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #4b5563;
+  padding: 0 16px;
+  text-align: left;
+}
+.nav-right {
+  margin-left: auto;
+}
+.btn.signup {
+  background-color: #4ade80;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.signup-box{
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  margin: 40px auto;
+  padding: 10px auto;
+}
+.logo{
+  padding-left: 650px;
+}
+.btn{
+  border: 1px solid gray;
+  margin: 20px auto;
+}

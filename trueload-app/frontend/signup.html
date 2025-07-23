@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - Trinity Auto</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <div class="signup-container">
+    <h2>Sign Up</h2>
+    <form action="/signup" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="password" name="password" placeholder="Password" required>
+
+      <label for="role">Sign up as:</label>
+      <select name="role" id="role" required>
+        <option value="">-- Select Role --</option>
+        <!-- <a href="loader.html" id="">Loader</a>
+        <a href="truckOwner.html" id="">Truck owner</a> -->
+        <option value="loader">Loader</option>
+        <option value="truck_owner">Truck Owner</option>
+      </select>
+
+      <button type="submit">Sign Up</button>
+    </form>
+    <p>Already have an account? <a href="/login">Login here</a></p>
+  </div>
+</body>
+</html>
